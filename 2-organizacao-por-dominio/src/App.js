@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import { simpleActionOneA, simpleActionOneB } from './redux/reducers/simpleOne/actions';
-import { simpleActionTwoA, simpleActionTwoB } from './redux/reducers/simpleTwo/actions';
+import { simpleActionOneA, simpleActionOneB } from './state/reducers/simpleOne/actions';
+import { simpleActionTwoA, simpleActionTwoB } from './state/reducers/simpleTwo/actions';
 
 const App = ({ actionOneA, actionOneB, actionTwoA, actionTwoB, resultA, resultB }) => {
   return (
